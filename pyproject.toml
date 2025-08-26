@@ -1,15 +1,16 @@
 [project]
-name = "repl-nix-workspace"
+name = "change-detection-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-driven remote sensing change detection app"
 requires-python = ">=3.11"
+
 dependencies = [
-    "matplotlib>=3.10.1",
-    "numpy>=2.2.4",
-    "opencv-python>=4.11.0.86",
-    "pillow>=11.1.0",
-    "psycopg2-binary>=2.9.10",
-    "scikit-image>=0.25.2",
-    "scipy>=1.15.2",
-    "streamlit>=1.44.1",
+    "matplotlib==3.10.1",
+    "numpy==2.2.4",
+    "opencv-python==4.11.0.86",
+    "pillow==11.1.0",
+    "psycopg2-binary==2.9.10",
+    "scikit-image==0.25.2",
+    "scipy==1.15.2",
+    "streamlit==1.44.1",
 ]
